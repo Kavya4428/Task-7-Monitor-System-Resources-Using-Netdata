@@ -1,6 +1,5 @@
 # Docker Install Commands
 
-Create an instance. Connect to that instance. Go to security groups > Add inbound rules > Custom TCP(All Traffic)
 sudo -i
 apt update -y
 apt install docker.io -y
