@@ -1,0 +1,12 @@
+# Docker Install Commands
+
+Create an instance. Connect to that instance. Go to security groups > Add inbound rules > Custom TCP(All Traffic)
+sudo -i
+apt update -y
+apt install docker.io -y
+systemctl start docker
+systemctl enable docker
+docker --version
+
+# Run Netdata Container
+docker run -d --name=netdata -p 19999:19999 netdata/netdata
